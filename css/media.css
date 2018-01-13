@@ -1,0 +1,626 @@
+/* Extra small devices (portrait phones, less than 576px) */ 
+@media (max-width: 575px) {
+.nav-pills .nav-link.active, .show > .nav-pills .nav-link {
+    background-color: transparent;
+}
+.navbar-brand {
+	padding-top:0;
+	padding-bottom:0;
+}
+#nav-part {
+	margin-top: 0px;
+}    
+.navbar-nav .nav-item .active.nav-link {
+	color: #ff5a5a;
+}    
+.navbar-light .navbar-toggler {
+	cursor: pointer;
+}
+.list-color{
+	 flex: 0 0 100%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-inner{
+	    height: 1240px;
+}
+
+.para{
+	flex: 0 0 100%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.para p{
+	font-size: 14px;
+}
+
+.para blockquote{
+    height: auto;
+} 
+
+.navbar-nav {
+	background: #0a2643;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border-top: 1px solid #ff5a5a;
+}    
+.navbar-light .navbar-nav .nav-link::after {
+	display: none;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+    transition: all linear .3s;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #ff5a5a;
+}
+.santa-tree, .gift-box, .santa{
+	display: none
+}
+.l-snow-particles {
+	background-position: center;
+    height: 520px;
+}
+.max-height {
+    height: 1145px !important;
+      background: #0a2643;}
+
+
+
+#index2 .l-snow-particles {
+	background-position: center;
+    height: 520px;
+}
+.afn img{
+	width: 100%;
+	height: 250px;
+}
+.list{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 5px;
+	font-size: 30px;
+}
+.list-color a{
+	font-size: 12px;
+}
+.list-color h4{
+	font-size: 20px;
+}
+#about {
+	margin-top: 100px;
+	padding-top: 0;
+}    
+.about-img {
+    display: none;
+}
+#about .heading {
+	padding-bottom: 15px;
+}
+.wish-text {
+	margin-top: 50px;
+}    
+.coming-counter {
+	height: auto;
+}    
+.coming-counter #hours, .coming-counter #seconds {
+	margin-top: 0px;
+}
+.happy-box-img {
+	width: 180px;
+    bottom: 20px;
+}
+ 
+#send-wish {
+	padding-top: 0px;
+}    
+#santa-coming {
+	padding-top: 75px;
+}    
+#happy-cris {
+	padding-top: 50px;
+}
+#last-party {
+	padding-top: 50px;
+}
+  
+.join-party a {
+	font-size: 15px;
+}
+.js-snow-other {
+	height: 220px;
+}
+.new-year-img {
+	padding-top: 10px;
+} 
+.santa-with-bag {
+    width: 180px;
+    top: -35px;
+}   
+.new-year-img {
+    width: 200px;
+    position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#last-party .col-3, #last-party .col-6, #footer .col-3, #footer .col-4, .tahsan3 .col-4, .coming-counter .col-3, #send-wish .col-6, #santa-coming .col-6, #about .col-7, #about .col-6 {
+    -ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+#last-party .col-3 {
+    text-align: center;
+}
+.footer-item {
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-item ul li {
+    float: none;
+}
+.footer-item ul li a{
+    margin-left: 0
+}
+.coming-counter #hours .overlay, .coming-counter #seconds .overlay {
+	top: 48%;
+}      
+}
+
+@media (width:320px){
+#banner .heading .col-6 {
+    max-width: 100%;
+}
+#banner .modal-body .col-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.about-content p {
+    text-align: center;
+}
+.max-height {
+    height: 1145px !important;
+    background: antiquewhite;}
+.l-snow-particles {
+    height: 600px;
+}
+#index2 .l-snow-particles {
+    height: 600px;
+}
+.santa-with-bag, .happy-box-img {
+	display: none;
+}
+#footer-bottom p {
+	font-size: 13px;
+}
+.back-top-btn {
+    bottom: 10%;
+    right: 5px
+}    
+}
+
+@media (width:480px){ 
+.santa-with-bag {
+	width: 145px;
+}
+#banner .heading .col-6 {
+    max-width: 100%;
+}    
+.happy-box-img {
+	width: 140px;
+}    
+.max-height {
+    height: 1145px !important;
+    background: antiquewhite;}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+.nav-pills .nav-link.active, .show > .nav-pills .nav-link {
+    background-color: transparent;
+}
+.navbar-brand {
+	padding-top:0;
+	padding-bottom:0;
+}
+#nav-part {
+	margin-top: 0px;
+}    
+
+.carousel-inner{
+	    height: 1240px;
+}
+.navbar-light .navbar-toggler {
+	cursor: pointer;
+}
+.navbar-nav .nav-item .active.nav-link {
+	color: #ff5a5a;
+}    
+.navbar-nav {
+	background: #0a2643;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border-top: 1px solid #ff5a5a;
+}    
+.navbar-light .navbar-nav .nav-link::after {
+	display: none;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+    transition: all linear .3s;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #ff5a5a;
+}
+.santa {
+    bottom: -295px;
+}
+.santa img, .santa-tree img, .gift-box img {
+	width: 200px;
+}
+.max-height {
+     height: 1050px !important;
+    background: #0a2643;}
+.santa-tree {
+	top: 368px;
+    left: 0;
+}
+.list-color{
+	 flex: 0 0 100%;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.para{
+	flex: 0 0 100%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gift-box {
+	bottom: -210px;
+	left: 80px;
+}
+.afn img{
+	width: 100%;
+	height: 250px;
+}
+.l-snow-particles {
+	background-position: center;
+}
+
+
+.para blockquote{
+    height: auto;
+} 
+
+
+#index2 .l-snow-particles {
+    background-position: center;
+}    
+#about {
+	margin-top: 130px;
+}
+.heading .col-6 {
+	max-width: 100%;
+}    
+.container.tahsan2 .col-7 {
+	max-width: 100%;
+}  
+.tahsan2 .heading {
+	padding-bottom: 200px;
+}
+.about-img {
+	top: 170px;
+    height: 160px;
+}
+.about-button {
+	padding-top: 10px;
+}
+#send-wish .col-6 {
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+}    
+.coming-counter #hours .overlay, .coming-counter #seconds .overlay {
+	top: 36%;
+	left: 50%;
+}
+.coming-counter .label, .coming-counter .number {
+	font-size: 18px;
+	line-height: 22px;
+}
+.coming-counter {
+	height: 180px;
+}
+.wish-text {
+	margin-top: 0;
+}
+.happy-box-img img {
+    width: 50%;
+}
+.happy-box-img {
+	top: 0;
+}
+.santa-with-bag {
+	top: -50px;
+}    
+.js-snow-other {
+	height: 250px;
+}
+.happy-box-img {
+	top: 55px;
+	width: 33%;
+}
+.happy-box-img img {
+    width: 100%;
+}    
+.join-party a {
+	padding: 9px 18px;
+}    
+#footer .col-3, #footer .col-4 {
+    max-width: 100%!important;
+    flex: 0 0 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-item ul li a {
+	margin-left: 0;
+}    
+.footer-item ul li {
+	float: none;
+}        
+}
+@media (width:767px){
+#happy-cris .happy-box-img {
+	top: 0;
+}
+}
+/* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 768px) and (max-width: 991px) {
+.nav-pills .nav-link.active, .show > .nav-pills .nav-link {
+    background-color: transparent;
+}
+.navbar-light .navbar-toggler {
+	cursor: pointer;
+}
+.navbar-nav .nav-item .active.nav-link {
+	color: #ff5a5a;
+}    
+.navbar-nav {
+	background: #0a2643;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border-top: 1px solid #ff5a5a;
+}  
+.carousel-inner{
+	 height: 1000px;
+}  
+.navbar-light .navbar-nav .nav-link::after {
+	display: none;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+    transition: all linear .3s;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #ff5a5a;
+}
+.santa {
+	    bottom: -250px;
+}
+.santa img, .santa-tree img, .gift-box img {
+	width: 250px;
+}
+.max-height {
+    height: 825px !important;
+    background-image: url(../images/radio3.png);
+    background-size: cover;
+    background-position: center center;}
+
+.list-color{
+	 flex: 0 0 100%;
+    max-width: 46%;
+    margin-left: auto;
+    background: rgba(239, 239, 239, 0.78);
+    margin-bottom: 15px;
+}  
+.santa-tree {
+	top: 310px;
+    left: 0;
+}
+.gift-box {
+	bottom: -225px;
+	left: 80px;
+}
+
+.para{
+	flex: 0 0 100%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.l-snow-particles {
+	background-position: center;
+}
+#index2 .l-snow-particles {
+	background-position: center;
+}    
+#banner .col-md-5 {
+	-ms-flex: 0 0 41.666667%;
+	flex: 0 0 60%;
+	max-width: 60%;
+}
+#about {
+	margin-top: 130px;
+}
+.heading .col-6 {
+	max-width: 100%;
+}    
+.container.tahsan2 .col-7 {
+	max-width: 100%;
+}  
+.tahsan2 .heading {
+	padding-bottom: 200px;
+}
+.about-img {
+	top: 170px;
+    height: 160px;
+}
+.about-button {
+	padding-top: 10px;
+}
+.coming-counter #days .overlay, .coming-counter #minutes .overlay {
+	top: 47%;
+}
+.coming-counter .label, .coming-counter .number {
+	line-height: 32px;
+}
+.coming-counter #hours .overlay, .coming-counter #seconds .overlay {
+	top: 38%;
+}
+.coming-counter {
+	height: 250px;
+}
+.wish-text {
+	margin-top: 0;
+}
+
+.para blockquote{
+    height: auto;
+}
+.happy-box-img img {
+	width: 200px;
+}
+.happy-box-img {
+	bottom: -5px;
+}
+.js-snow-other {
+	height: 290px;
+}
+.footer-item ul li {
+	float: none;
+}
+#footer .col-sm-6 {
+    text-align: center;
+}
+#footer .col-sm-12 {
+	text-align: center;
+}
+.footer-item ul li a {
+	margin-left: 0;
+    font-size: 12px;
+}
+.footer-item {
+	text-align: center;
+    margin-top: 30px;
+}
+.coming-counter .label, .coming-counter .number {
+	font-size: 24px;
+}   
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+.para{
+	flex: 0 0 100%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.para p{
+	font-size: 14px;
+}
+.santa-tree {
+	top: 252px;
+}
+.santa-tree img, .gift-box img {
+	width: 300px;
+}
+.gift-box {
+	bottom: -240px;
+}
+.santa img {
+	width: 300px;
+} 
+
+.list-color{
+    flex: 0 0 100%;
+    max-width: 40%;
+    margin-left: auto;
+    background: rgba(239, 239, 239, 0.78);
+    margin-bottom: 15px;
+    margin-right: auto;
+}   
+.santa{
+	  bottom: -310px;
+}
+.l-snow-particles {
+	background-position: center;
+}
+#index2 .l-snow-particles {
+	background-position: center;
+}    
+.about-img {
+	width: 400px;
+}
+#about {
+	margin-top: 100px;
+}
+#banner .col-md-5 {
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
+}    
+.wish-text {
+	margin-top: 25px;
+}
+.happy-box-img img {
+	width: 280px;
+}
+.happy-box-img {
+	bottom: -10px;
+}    
+.new-year-img {
+	padding-top: 10px;
+}
+.js-snow-other {
+	height: 310px;
+}
+.footer-item ul li i {
+	width: 40px;
+	height: 40px;
+    line-height: 40px;
+} 
+.footer-item ul li a {
+	font-size: 13px;
+	margin-left: 10px;
+}
+.footer-item ul li p {
+    line-height: 18px;
+}    
+.tahsan2 {
+	padding-top: 80px;
+}    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+.about-img {
+	width: 500px;
+}
+.santa{
+	bottom: -275px;
+}
+.santa img{
+	 height: 360px;
+}
+}

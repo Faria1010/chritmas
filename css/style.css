@@ -1,0 +1,988 @@
+/* 
+------------------
+Template Name: Kertsmis Template
+Author: Themepoo
+Author Email: themepoo.cit@gmail.com
+Version: 1.00
+----------------
+
+----------------
+Table of Content
+----------------
+1.Navbar Part
+2.Banner Part
+3.About Part
+4.Santa Coming Part 
+5.Send Wishes Part
+6.Join The Party Part
+7.Last Year party Part
+8.Footer Part
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,ol {
+    list-style-type: none;
+}
+img{
+    border: 0;
+}
+body {
+  position: relative;
+}
+
+blockquote{
+    font-size: 16px;
+    font-family: Open Sans;
+    font-style: italic;
+    color: #555555;
+    padding: 1.2em 25px 1.2em 40px;
+    border-left: 8px solid #fa5655;
+    line-height: 1.3;
+    position: relative;
+    left: 0px;
+    background: #EDEDED;
+    height: 500px;
+}
+
+blockquote::before{
+    font-family: Arial;
+    content: "\201C";
+    color: #f95554;
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
+/*=============================Version 2 CSS =================================*/
+#index2 .slider_txt a {
+    color: #142268;
+}
+#index2 .slider_txt a:hover {
+    color: #fff;
+}
+#index2 .navcss{
+    background-color: #1e257c;
+    margin-top: 0!important;
+}
+#index2 .l-snow-particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background:url(../images/banner2.jpg) left top no-repeat;
+    background-size: cover;
+}
+#index2 .heading h2 {
+    color: #142268;
+}
+#index2 .coming-counter .label {
+	color: #142268;
+}
+#index2 .coming-counter .number {
+    color:#142268; 
+}
+#index2 #send-wish .send-wish-btn a {
+	background: #142268;
+	border: 1px solid #142268;
+}
+#index2 #send-wish .send-wish-btn a:hover {
+    color: #142268;
+    background: none;
+}
+#index2 .join-party a {
+	background: #142268;
+	border: 1px solid #142268;
+}
+#index2 .join-party a:hover {
+    background: none;
+    color: #142268;
+}
+#index2 .about-button .donate {
+	background: #142268;
+	border: 1px solid #142268;
+}
+#index2 .about-button .donate:hover {
+    background: none;
+    color: #142268;
+}
+#index2 .checkbox-primary input[type="checkbox"]:checked + label::before {
+	border-color: #142268;
+    background: #142268;
+}
+#index2 .about-button .gift {
+    border: 1px solid #142268;
+    color: #142268;
+}
+#index2 .about-button .gift:hover {
+    background: #142268;
+    color: #fff;
+}
+#index2 .browse-all a {
+	border: 1px solid #142268;
+	color: #142268;
+	transition: all linear .3s;
+}
+#index2 .browse-all a:hover {
+    background: #142268;
+    color: #fff;
+}
+#index2 .footer-bg {
+	background: #142268;
+}
+#index2 .footer-item ul li i {
+	color: #142268;
+}
+#index2 .follow i:hover {
+	color: #142268;
+}
+#index2 #footer-bottom a {
+	color: #142268;
+}
+#index2 .submit-join button {
+    color: #142268;
+    border-color: #142268;
+}
+#index2 .submit-join button:hover {
+    background: #142268;
+    color: #fff;
+}
+#index2 .modal-header i {
+    background: #142268;
+}
+#index2 .form-control:focus {
+    border-color: #142268;
+}
+#index2 .submit-join2 {
+	border-bottom: 1px dashed #142268;
+}
+#index2 #exampleModal3 .modal-header i {
+	background: #142268;
+}
+
+/*============================= Navbar part css ==============================*/
+#nav-part{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    margin-top: 20px;
+    transition: all 0.3s linear;
+}
+#nav-part button i {
+    color: #fff;
+    font-size: 30px;
+}
+.navbar-light .navbar-toggler {
+	border-color: #fff;
+}
+.navcss{
+    background-color: #0a2643;
+    margin-top: 0!important;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding-right: 0.7rem;
+    position: relative;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link::after{
+	position: absolute;
+	content: '';
+	background: url(../images/shape.png)no-repeat;
+	top: -42px;
+	left: 50%;
+	width: 20px;
+	height: 0px;
+	transform: translateX(-50%);
+    opacity: 0;
+    transition: all linear .3s
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.navbar-nav .nav-item .active.nav-link:after  {
+    opacity: 1;
+    height: 44px;
+
+}
+.navbar-nav .nav-item .active.nav-link{
+    background: transparent;
+}
+ .navbar-nav .nav-link:hover::after{
+    opacity: 1;
+    height: 44px;
+}
+
+/*============================= Banner part css ============================*/
+.tahsan {
+    position: relative;
+}
+.l-snow-particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background: url(../images/banner8.png) left top no-repeat;
+    background-size: cover;
+}
+.slider_txt {
+    padding-top: 130px;
+}
+.slider_txt h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Parisienne', cursive;
+    line-height: 50px;
+    background: rgba(0, 0, 0, 0.58);
+    padding: 10px 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.slider_txt h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 50px;
+    text-transform: capitalize;
+}
+.slider_txt p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+.slider_txt a {
+    padding: 9px 20px;
+    background: #fff;
+    border-radius: 25px;
+    font-family: 'Parisienne', cursive;
+    color: #ff5a5a;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all linear .3s;
+    border:1px solid #fff; 
+    font-weight: 600;
+}
+.slider_txt a:hover {
+    background: none;
+    color: #fff;
+}
+.santa-tree {
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+.gift-box {
+	position: absolute;
+	bottom: -285px;
+	left: 95px;
+}
+.santa {
+    position: absolute;
+    right: 0;
+    bottom: -250px;
+}
+/* join party popup */
+.modal-content {
+    border-radius: 0;
+    overflow: hidden;
+}
+.modal-header i {
+	position: absolute;
+	top: -8px;
+	right: -5px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #ff5a5a;
+    border-radius: 50%;
+    font-weight: 400;
+    color: #fff;
+}
+.modal-header {
+	border-bottom:none;
+}
+.modal-dialog {
+    max-width: 1024px!important;
+}
+.close {
+    opacity: 1;
+}
+.form-control {
+	font-style: italic;
+    border-radius: 0;
+}
+.form-control:focus {
+    border-color: #ff5a5a;
+}
+.submit-join {
+    padding-bottom: 30px;
+}
+.submit-join button {
+	background: none;
+	border-radius: 25px;
+	color: #ff5a5a;
+	border-color: #ff5a5a;
+    font-family: 'Parisienne', cursive;
+    font-size: 20px;
+    transition: all linear .3s;
+    font-weight: 600;
+}
+.submit-join .btn-secondary:hover {
+	color: #fff;
+	background-color: #ff5a5a;
+	border-color: #ff5a5a;
+}
+.submit-join .btn-secondary.focus, .btn-secondary:focus {
+	box-shadow: none;
+}
+/*================================= About part css ===================================*/
+
+.wish-img{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#about {
+    margin-top: 230px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.heading {
+    padding-bottom: 35px; 
+}
+.heading h2 {
+    font-family: 'Parisienne', cursive;
+    font-weight: 700;
+    font-size: 32px;
+    color: #ff5a5a;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.heading p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444444;
+    line-height: 24px;
+}
+.about-img {
+	position: absolute;
+	left: 0;
+    width: 550px;
+	bottom: 0;
+	padding-top: 100px;
+	padding-left: 0;
+}
+.about-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    padding-bottom: 10px;
+}
+.about-button {
+    padding-top: 10px;
+}
+.about-button a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Parisienne', cursive;
+    font-size: 20px;
+    text-transform: capitalize;
+    transition: all linear .3s;
+    font-weight: 600;
+}
+.about-button .donate {
+    background: #ff5a5a;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #ff5a5a;
+}
+.about-button .donate:hover {
+    background: none;
+    color: #ff5a5a;
+}
+.about-button .gift {
+    border:1px solid #ff5a5a;
+    padding: 10px 35px;
+    border-radius: 25px;
+    color: #ff5a5a;
+    margin-left: 10px;
+}
+.about-button .gift:hover {
+    background: #ff5a5a;
+    color: #fff;
+}
+/* donate poppup */
+#exampleModal2 .submit-join {
+    text-align: center;
+}
+#exampleModal2 .modal-header i {
+	text-align: center;
+}
+#exampleModal2 .modal-body .heading,
+#exampleModal2 .modal-body .heading h2 {
+    padding-bottom: 0;
+    font-size: 24px;
+}
+#exampleModal2 .modal-body .heading span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #777777;
+    font-style: italic;
+}
+#exampleModal2 .modal-body .heading3 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.submit-join2 {
+    border-bottom: 1px dashed #ff5a5a;
+    padding-bottom: 50px;
+}
+.tahsan2 {
+    padding-top: 50px;
+}
+.checkbox, .radio {
+	position: relative;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.brand-name label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+}
+.brand-name li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.brand-name li label {
+	position: relative;
+	padding-left: 5px;
+}
+.checkbox label::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	left: 2px;
+	top: 5px;
+	margin-left: -20px;
+	border: 1px solid #444444;
+	border-radius: 3px;
+	background-color: #fff;
+	-webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+	-o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+	transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+.checkbox-primary input[type="checkbox"]:checked + label::before {
+	border-color: #ff5a5a;
+    background: #ff5a5a;
+}
+.checkbox-primary input[type="checkbox"]:checked + label::after {
+	color: #fff;
+}
+.checkbox input[type="checkbox"]:checked + label::after {
+	font-family: 'FontAwesome';
+	content: "\f00c";
+	font-size: 16px;
+	position: absolute;
+	top: 0px;
+	left: -18px;
+}
+#exampleModal3 .modal-header i {
+	position: absolute;
+	top: -8px;
+	right: -5px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background: #ff5a5a;
+	border-radius: 50%;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+}
+
+
+/*==========================comment part css====================*/
+.title {
+    font-family: 'Parisienne', cursive;
+    font-weight: 700;
+    font-size: 45px;
+    color: #ff5a5a;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.title2{
+        font-family: open-sans;
+    font-weight: 400;
+    font-size: 28px;
+    color: #ff5a5a;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+/*======================gest the show css====================*/
+
+.background{
+    background: url(../images/footer-bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.show p{ color: #fff;}
+.show p a{color: #4e7094;}
+
+/*========================song list part=====================*/
+.img{}
+.list{ 
+    text-align: center;
+    padding: 20px 0px;
+    color: #ff5a5a;
+    font-family: 'Parisienne', cursive;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    }
+
+.list-color{
+    flex: 0 0 100% ;
+    max-width: 40%;
+    background: rgba(239, 239, 239, 0.78);
+    margin-bottom: 15px;
+}
+.list-color a{
+    color: #0a2643;
+    font-weight: 500;
+}
+.list-color h4{
+    text-transform: uppercase;
+    color: #ff5a5a;
+    font-weight: 700;
+    font-family: open-sans;
+    padding-top: 10px;
+}
+
+.max-height{
+    height: 750px !important;
+    background-image: url(../images/radio3.png);
+    background-size: cover;
+}
+
+
+/*================================= clock part css ======================================*/
+
+.clock-background{
+    background-image: url(../images/counter.jpg);
+    background-size: cover;
+    padding-bottom: 70px;
+}
+.clock{}
+.img-back{}
+.clock-text{}
+
+.clock-text h2{}
+.clock-text p{}
+.overlay{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cal{    
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    color: #ff5a5a;
+    line-height: 40px;}
+.clock-text {
+    color: #fff;
+    padding-top: 20px;
+}
+
+.clock{
+    font-size: 28px;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    color: #ff5a5a;
+    line-height: 40px;
+}
+
+
+
+
+/*================================= Santa Coming part css =================================*/
+#santa-coming {
+    padding-top: 100px;
+}
+.coming-counter {
+    background: url(../images/counter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.coming-counter .label, .coming-counter .number {
+  color: #adafb2;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  color: #ff5a5a;
+  line-height: 40px;
+}
+.coming-counter #days,
+.coming-counter #hours,
+.coming-counter #minutes,
+.coming-counter #seconds
+{
+    position: relative;
+}
+.coming-counter #days .overlay, .coming-counter #minutes .overlay {
+	position: absolute;
+	top: 48%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.coming-counter #hours, .coming-counter #seconds {
+    margin-top: -40px;
+}
+.coming-counter #hours .overlay, .coming-counter #seconds .overlay {
+    position: absolute;
+	top: 41%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+
+/*==================================== Send Wishes part css ===============================*/
+#send-wish {
+    padding-top: 80px;
+}
+#send-wish .send-wish-btn {
+    padding-top: 15px;
+}
+#send-wish .send-wish-btn a {
+    padding: 10px 20px;
+    background: #ff5a5a;
+    border-radius: 25px;
+    color: #fff;
+    font-family: 'Parisienne', cursive;
+    font-size: 20px;
+    text-transform: capitalize;
+    transition: all linear .3s;
+    border: 1px solid #ff5a5a;
+    text-decoration: none;
+    font-weight: 600;
+}
+#send-wish .send-wish-btn a:hover {
+    background: none;
+    color: #ff5a5a;
+}
+.wish-text {
+      margin-top: 45px;
+}
+.wish-text .heading h2 {
+    padding-bottom: 5px;
+}
+.wish-text .heading p {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+/*=======================testimonial part css====================*/
+.nice{
+      text-transform: capitalize;
+    font-family: raleway;
+    padding-bottom: 20px;
+    font-weight: 600;
+    color: #09294d;
+}
+.para{
+
+}
+/*================================= Join The Party part css ======================================*/
+#happy-cris {
+   padding-top: 150px;
+}
+.tahsan3 {
+    position: relative;
+}
+.js-snow-other {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 370px;
+    background:url(../images/happy-crismas.jpg) left top no-repeat;
+    background-size: cover;
+}
+
+.happy-box-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.new-year-img {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.join-party {
+    padding-top: 30px;
+}
+.join-party a {
+    padding: 10px 20px;
+    background: #ff5a5a;
+    border-radius: 25px;
+    color: #fff;
+    font-family: 'Parisienne', cursive;
+    font-size: 20px;
+    text-transform: capitalize;
+    transition: all linear .3s;
+    border: 1px solid #ff5a5a;
+    text-decoration: none;
+    font-weight: 600;
+}
+.join-party a:hover {
+    background: none;
+    color: #ff5a5a;
+}
+.santa-with-bag {
+    position: absolute;
+    right: 0;
+    top: -80px;
+}
+/*=========================== Last Year Party css ==========================*/
+#last-party {
+    padding-top: 100px;
+}
+.browse-all.text-center.col-12 {
+	padding-top: 40px;
+}
+.browse-all a {
+    padding: 10px 25px;
+    border:1px solid #ff5a5a;
+    border-radius: 25px;
+    color: #ff5a5a;
+    font-family: 'Parisienne', cursive;
+    font-size: 20px;
+    text-transform: capitalize;
+    transition: all linear .3s;
+    text-decoration: none;
+    transition: all linear .3s;
+    font-weight: 600;
+}
+.browse-all a:hover {
+    background: #ff5a5a;
+    color: #fff;
+}
+.images-item {
+    display: none;
+    margin-bottom: 30px;
+}
+.navbar-light .navbar-toggler {
+	background: tranparent;
+}
+/*========================= Footer part css =======================================*/
+.back-top-btn {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    z-index: 999;
+    display: none;
+    transition: all .5s;
+}
+
+.footer-bg {
+    background: url(../images/footer-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-bg .heading {
+    padding-bottom: 15px;
+}
+.footer-item ul li p {
+         margin: 0px;
+}
+.footer-item ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.footer-item ul li {
+    float: left;
+}
+.footer-item ul li i{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #ff5a5a;
+    font-size: 24px;
+}
+.follow {
+    padding-top: 60px;
+}
+.follow h2 {
+    font-family: 'Parisienne', cursive;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 8px;
+}
+.follow i {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: all linear .3s;
+}
+.follow a {
+    text-decoration: none;
+}
+.follow i:hover {
+    background: #fff;
+    color: #ff5a5a;
+}
+#footer-bottom {
+      padding: 22px 0px;
+}
+#footer-bottom p {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #444444;
+}
+#footer-bottom a {
+    text-decoration: none;
+    color: #ff5a5a;
+}
+/*===================== Preloader CSS ===========================*/
+.preloader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    background-color: #3C3252;
+    width: 100%;
+    height: 100%;
+}
+.preloader img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    transform: translate(-50%,-50%)
+}
+
+
+
+/*==========================about us css=======================*/
+
+.slider_txt2{
+    margin-top: 210px;
+   
+}
+
+.slider_txt2 h2{
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 54px;
+    font-family: 'Parisienne', cursive;
+    color: #333;
+}
+.slider_txt2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+
+/*==========================show/demo css================*/
+.l-snow-particlesf{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.slider_txt3{
+    background: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 0 0 4px #f97b7bbd;
+    font-family: open-sans;
+    text-transform: capitalize;
+}
+.slider_txt3 h2{
+     text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 54px;
+    font-family: 'Parisienne', cursive;
+    color: #fff;   
+}
